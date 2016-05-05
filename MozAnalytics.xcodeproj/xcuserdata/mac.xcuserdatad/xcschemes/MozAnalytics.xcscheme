@@ -20,20 +20,6 @@
                ReferencedContainer = "container:MozAnalytics.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "67D8BDA11BA212F2004FA2BC"
-               BuildableName = "MozAnalyticsTests.xctest"
-               BlueprintName = "MozAnalyticsTests"
-               ReferencedContainer = "container:MozAnalytics.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

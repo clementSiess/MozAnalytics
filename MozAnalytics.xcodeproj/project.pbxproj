@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044126A31BB5E1BD00FB57DE /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 044126A21BB5E1BD00FB57DE /* settings.png */; settings = {ASSET_TAGS = (); }; };
+		044126A51BB5E1E900FB57DE /* settings copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 044126A41BB5E1E900FB57DE /* settings copy.png */; settings = {ASSET_TAGS = (); }; };
+		044126A91BB5E3B700FB57DE /* saved.png in Resources */ = {isa = PBXBuildFile; fileRef = 044126A81BB5E3B700FB57DE /* saved.png */; settings = {ASSET_TAGS = (); }; };
+		67418CC01BB1E233000D11F0 /* MozResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67418CBE1BB1E233000D11F0 /* MozResult.swift */; };
+		67418CC11BB1E233000D11F0 /* SavedResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67418CBF1BB1E233000D11F0 /* SavedResultsViewController.swift */; };
+		67418CC31BB1E8A6000D11F0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67418CC21BB1E8A6000D11F0 /* DetailViewController.swift */; };
+		67575A3C1BAB40700098B5EA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67575A3B1BAB40700098B5EA /* SearchViewController.swift */; };
+		67575A3E1BAB54030098B5EA /* URLMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67575A3D1BAB54030098B5EA /* URLMetrics.swift */; };
+		67A8D39E1BA8B7F500EAEDC9 /* Mozscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8D39D1BA8B7F500EAEDC9 /* Mozscape.swift */; };
 		67D8BD901BA212F2004FA2BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8BD8F1BA212F2004FA2BC /* AppDelegate.swift */; };
 		67D8BD931BA212F2004FA2BC /* MozAnalytics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67D8BD911BA212F2004FA2BC /* MozAnalytics.xcdatamodeld */; };
-		67D8BD951BA212F2004FA2BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8BD941BA212F2004FA2BC /* ViewController.swift */; };
+		67D8BD951BA212F2004FA2BC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8BD941BA212F2004FA2BC /* SettingsViewController.swift */; };
 		67D8BD981BA212F2004FA2BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D8BD961BA212F2004FA2BC /* Main.storyboard */; };
 		67D8BD9A1BA212F2004FA2BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D8BD991BA212F2004FA2BC /* Images.xcassets */; };
 		67D8BD9D1BA212F2004FA2BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D8BD9B1BA212F2004FA2BC /* LaunchScreen.xib */; };
@@ -27,11 +36,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044126A21BB5E1BD00FB57DE /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		044126A41BB5E1E900FB57DE /* settings copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings copy.png"; sourceTree = "<group>"; };
+		044126A81BB5E3B700FB57DE /* saved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saved.png; sourceTree = "<group>"; };
+		67418CBE1BB1E233000D11F0 /* MozResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MozResult.swift; sourceTree = "<group>"; };
+		67418CBF1BB1E233000D11F0 /* SavedResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedResultsViewController.swift; sourceTree = "<group>"; };
+		67418CC21BB1E8A6000D11F0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		67575A3B1BAB40700098B5EA /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		67575A3D1BAB54030098B5EA /* URLMetrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLMetrics.swift; sourceTree = "<group>"; };
+		67A8D39D1BA8B7F500EAEDC9 /* Mozscape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mozscape.swift; sourceTree = "<group>"; };
+		67A8D39F1BA8B90800EAEDC9 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		67D8BD8A1BA212F2004FA2BC /* MozAnalytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MozAnalytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D8BD8E1BA212F2004FA2BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67D8BD8F1BA212F2004FA2BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67D8BD921BA212F2004FA2BC /* MozAnalytics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MozAnalytics.xcdatamodel; sourceTree = "<group>"; };
-		67D8BD941BA212F2004FA2BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67D8BD941BA212F2004FA2BC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		67D8BD971BA212F2004FA2BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67D8BD991BA212F2004FA2BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		67D8BD9C1BA212F2004FA2BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -58,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67575A3F1BAB541E0098B5EA /* Moz Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				67A8D39D1BA8B7F500EAEDC9 /* Mozscape.swift */,
+				67575A3D1BAB54030098B5EA /* URLMetrics.swift */,
+			);
+			name = "Moz Analytics";
+			sourceTree = "<group>";
+		};
 		67D8BD811BA212F2004FA2BC = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +107,14 @@
 		67D8BD8C1BA212F2004FA2BC /* MozAnalytics */ = {
 			isa = PBXGroup;
 			children = (
+				67A8D39F1BA8B90800EAEDC9 /* Bridging-Header.h */,
 				67D8BD8F1BA212F2004FA2BC /* AppDelegate.swift */,
-				67D8BD941BA212F2004FA2BC /* ViewController.swift */,
+				67418CC21BB1E8A6000D11F0 /* DetailViewController.swift */,
+				67418CBF1BB1E233000D11F0 /* SavedResultsViewController.swift */,
+				67418CBE1BB1E233000D11F0 /* MozResult.swift */,
+				67575A3F1BAB541E0098B5EA /* Moz Analytics */,
+				67D8BD941BA212F2004FA2BC /* SettingsViewController.swift */,
+				67575A3B1BAB40700098B5EA /* SearchViewController.swift */,
 				67D8BD961BA212F2004FA2BC /* Main.storyboard */,
 				67D8BD991BA212F2004FA2BC /* Images.xcassets */,
 				67D8BD9B1BA212F2004FA2BC /* LaunchScreen.xib */,
@@ -93,6 +127,9 @@
 		67D8BD8D1BA212F2004FA2BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				044126A41BB5E1E900FB57DE /* settings copy.png */,
+				044126A81BB5E3B700FB57DE /* saved.png */,
+				044126A21BB5E1BD00FB57DE /* settings.png */,
 				67D8BD8E1BA212F2004FA2BC /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -159,7 +196,9 @@
 		67D8BD821BA212F2004FA2BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Siess, Clement";
 				TargetAttributes = {
 					67D8BD891BA212F2004FA2BC = {
@@ -195,9 +234,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044126A31BB5E1BD00FB57DE /* settings.png in Resources */,
+				044126A51BB5E1E900FB57DE /* settings copy.png in Resources */,
 				67D8BD981BA212F2004FA2BC /* Main.storyboard in Resources */,
 				67D8BD9D1BA212F2004FA2BC /* LaunchScreen.xib in Resources */,
 				67D8BD9A1BA212F2004FA2BC /* Images.xcassets in Resources */,
+				044126A91BB5E3B700FB57DE /* saved.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +257,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67D8BD951BA212F2004FA2BC /* ViewController.swift in Sources */,
+				67D8BD951BA212F2004FA2BC /* SettingsViewController.swift in Sources */,
+				67575A3C1BAB40700098B5EA /* SearchViewController.swift in Sources */,
 				67D8BD901BA212F2004FA2BC /* AppDelegate.swift in Sources */,
 				67D8BD931BA212F2004FA2BC /* MozAnalytics.xcdatamodeld in Sources */,
+				67A8D39E1BA8B7F500EAEDC9 /* Mozscape.swift in Sources */,
+				67575A3E1BAB54030098B5EA /* URLMetrics.swift in Sources */,
+				67418CC31BB1E8A6000D11F0 /* DetailViewController.swift in Sources */,
+				67418CC01BB1E233000D11F0 /* MozResult.swift in Sources */,
+				67418CC11BB1E233000D11F0 /* SavedResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +328,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -348,7 +397,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MozAnalytics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iteachcoding.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MozAnalytics/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -358,7 +409,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MozAnalytics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iteachcoding.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MozAnalytics/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -376,6 +429,7 @@
 				);
 				INFOPLIST_FILE = MozAnalyticsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iteachcoding.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MozAnalytics.app/MozAnalytics";
 			};
@@ -391,6 +445,7 @@
 				);
 				INFOPLIST_FILE = MozAnalyticsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iteachcoding.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MozAnalytics.app/MozAnalytics";
 			};
@@ -415,6 +470,7 @@
 				67D8BDAE1BA212F2004FA2BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67D8BDAF1BA212F2004FA2BC /* Build configuration list for PBXNativeTarget "MozAnalyticsTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +479,7 @@
 				67D8BDB11BA212F2004FA2BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
